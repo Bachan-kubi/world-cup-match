@@ -33,6 +33,17 @@
     font-weight: 700;
     line-height: 70px;
 }
+.btn{
+    color: white;
+    background-color: crimson;
+    padding: 12px 25px;
+    margin: 30px 65px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn i{
+    margin-left: 10px;
+}
 .banner img{
     width: 100%;
 }
