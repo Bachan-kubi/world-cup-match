@@ -7,25 +7,25 @@
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    display: flex;
-    justify-content: center;
+    width: 1321px;
+    margin: 70px auto;
 }
 .top-banner{
-    width: 1321px;
-    height: 695px;
-    background-color: black;
     border-radius: 20px;
+    background-color: black;
 }
 .banners{
     display: flex;
     justify-content: center;
+    
 }
 .banner{  
     width: 50%;
+    padding-right: 60px;
 }
-.banner h2, p{
+.banners .banner h2, p{
     color: white;
-    padding-left: 70px;  
+    margin-left: 80px;  
 }
 .banner h2{
     padding-top: 120px;
@@ -33,11 +33,16 @@
     font-weight: 700;
     line-height: 70px;
 }
+.banner p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+}
 .btn{
     color: white;
     background-color: crimson;
     padding: 12px 25px;
-    margin: 30px 65px;
+    margin: 30px 75px;
     border-radius: 5px;
     font-size: 20px;
 }
@@ -47,3 +52,4 @@
 .banner img{
     width: 100%;
 }
+/* top banner styling ended */
